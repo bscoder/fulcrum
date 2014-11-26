@@ -62,16 +62,16 @@ ru:
     models:
       user:
         one: 'Участник'
-        few: 'Участника'
-        other: 'Участников'
+        few: 'Участники'
+        other: 'Участники'
       project:
         one: 'Проект'
-        few: 'Проекта'
-        other: 'Проектов'
+        few: 'Проекты'
+        other: 'Проекты'
       story:
         one: 'История'
         few: 'Истории'
-        other: 'Историй'
+        other: Истории'
 
     attributes:
       note:
@@ -86,7 +86,7 @@ ru:
       story:
         title:                'Заголовок'
         description:          'Описание'
-        estimate:             'Estimate'
+        estimate:             'Оценка'
         story_type:           'Тип истории'
         state:                'Состояние'
         accepted_at:          'Принята'
