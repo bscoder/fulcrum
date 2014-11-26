@@ -17,6 +17,7 @@ gem 'configuration'
 gem 'rails-observers', '~> 0.1.2'
 gem 'jquery-ui-rails'
 gem 'pg'
+gem 'therubyracer'
 
 group :production do
   # This helps with serving assets and log files on the heroku platform.
@@ -39,6 +40,10 @@ group :development, :test do
   gem 'poltergeist'
   gem 'database_cleaner'
   gem 'quiet_assets'
+  gem 'capistrano'
+  gem 'capistrano-rvm'
+  gem 'capistrano-bundler'
+  gem 'capistrano-rails'
 end
 
 group :travis do
