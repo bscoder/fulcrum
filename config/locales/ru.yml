@@ -32,6 +32,7 @@ ru:
 
   imported n stories:
     one: 'Импортирована одна история'
+    few: 'Импортировано %{count} истории'
     other: 'Импортировано %{count} историй'
 
   n stories failed to import:
@@ -40,7 +41,8 @@ ru:
 
   n weeks:
     one: 'одна неделя'
-    other: '%{count} недели'
+    few: '%{count} недели'
+    other: '%{count} недель'
   
   keycuts:
     keyboard_shortcuts: Горячие клавиши
@@ -60,13 +62,16 @@ ru:
     models:
       user:
         one: 'Участник'
-        other: 'Участники'
+        few: 'Участника'
+        other: 'Участников'
       project:
         one: 'Проект'
-        other: 'Проекты'
+        few: 'Проекта'
+        other: 'Проектов'
       story:
         one: 'История'
-        other: 'Истории'
+        few: 'Истории'
+        other: 'Историй'
 
     attributes:
       note:
@@ -104,7 +109,8 @@ ru:
       are you sure you want to delete this project: "А вы точно хотите совсем удалить этот проект"
       the iteration starts on x with length of x weeks:
         one:    "Итерация со дня %{day} длиной одну неделю"
-        other:  "Итерация со дня %{day} длиной %{count} недели"
+        few:    "Итерация со дня %{day} длиной %{count} недели"
+        other:  "Итерация со дня %{day} длиной %{count} недель"
 
     show:
       done: "Готово"
@@ -114,9 +120,9 @@ ru:
 
   registrations:
     edit:
-      leave_blank_if_you_dont_want_to_change_it: "Jcnfdmnt gecnsv tckb yt [jnbnt vtyznm"
+      leave_blank_if_you_dont_want_to_change_it: "Оставьте пустым если не хотите менять"
       notify_me_when_my_stories_are: "Уведомлять меня если моя история"
-      we_need_your_current_password_to_confirm_your_changes: "Введите свой пароль чтобв подтвердить изменения"
+      we_need_your_current_password_to_confirm_your_changes: "Введите свой пароль чтобы подтвердить изменения"
 
   time:
     formats:
